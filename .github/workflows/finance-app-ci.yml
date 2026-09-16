@@ -35,6 +35,8 @@ jobs:
         run: npm run typecheck
 
       - name: Test
+        env:
+          TZ: UTC
         run: npm run test
 
       - name: Build
