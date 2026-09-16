@@ -130,6 +130,22 @@
   font-weight: 600;
 }
 
+/* ── Symbol search bar (above time-range toggle) ────────────────────────── */
+
+.symbolSearchBar {
+  margin-bottom: 20px;
+  padding: 14px 16px;
+  background: #f7f8fa;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+/* ── User-selected symbol chart ─────────────────────────────────────────── */
+
+.userChart {
+  margin-top: 8px;
+}
+
 /* ── Date range badge ───────────────────────────────────────────────────── */
 
 .badge {
