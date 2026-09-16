@@ -1,9 +1,11 @@
 import { useState } from 'react';
 import type { TimeRange } from '../../types/finance';
 import { ViewToggle } from '../../components/ViewToggle';
+import { SymbolSearch } from '../../components/SymbolSearch';
 import { DayView } from './DayView';
 import { WeekView } from './WeekView';
 import { QuarterView } from './QuarterView';
+import { UserChart } from './UserChart';
 import styles from './Dashboard.module.css';
 
 const VIEW_LABELS: Record<TimeRange, string> = {
@@ -14,9 +16,14 @@ const VIEW_LABELS: Record<TimeRange, string> = {
 
 export function Dashboard() {
   const [range, setRange] = useState<TimeRange>('day');
+  const [userSymbol, setUserSymbol] = useState('');
 
   return (
     <div>
+      <div className={styles.symbolSearchBar}>
+        <SymbolSearch onSubmit={setUserSymbol} />
+      </div>
+
       <div className={styles.viewHeader}>
         <ViewToggle active={range} onChange={setRange} />
         <span className={styles.lastUpdated}>{VIEW_LABELS[range]}</span>
@@ -25,6 +32,8 @@ export function Dashboard() {
       {range === 'day'     && <DayView />}
       {range === '7d'      && <WeekView />}
       {range === 'quarter' && <QuarterView />}
+
+      {userSymbol && <UserChart symbol={userSymbol} />}
     </div>
   );
 }
