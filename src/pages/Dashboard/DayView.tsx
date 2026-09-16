@@ -26,6 +26,7 @@ export function DayView() {
 
   const lastUpdatedLabel = lastUpdated
     ? new Date(lastUpdated * 1000).toLocaleTimeString('en-US', {
+        timeZone: 'UTC',
         hour:   '2-digit',
         minute: '2-digit',
         hour12: false,
