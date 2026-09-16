@@ -1,0 +1,146 @@
+/* ── View header (toggle bar + last-updated) ────────────────────────────── */
+
+.viewHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.lastUpdated {
+  font-size: 11px;
+  color: #57606a;
+}
+
+.revalidating {
+  font-size: 11px;
+  font-weight: 400;
+  color: #3b82d4;
+  margin-left: 6px;
+}
+
+/* ── Sections ───────────────────────────────────────────────────────────── */
+
+.section {
+  margin-bottom: 32px;
+}
+
+.sectionTitle {
+  font-size: 15px;
+  font-weight: 600;
+  color: #1f2328;
+  margin: 0 0 4px 0;
+  display: flex;
+  align-items: baseline;
+  gap: 0;
+}
+
+.subtitle {
+  font-size: 12px;
+  color: #57606a;
+  margin: 0 0 14px 0;
+}
+
+/* ── Quote grid ─────────────────────────────────────────────────────────── */
+
+.quoteGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 12px;
+}
+
+/* ── Chart grid (intraday — smaller, 2-column on wide screens) ──────────── */
+
+.chartGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 16px;
+}
+
+/* ── Error / empty states ───────────────────────────────────────────────── */
+
+.error {
+  font-size: 13px;
+  color: #dc2626;
+  padding: 12px 0;
+}
+
+/* ── Comparison chart wrapper (taller, full-width) ──────────────────────── */
+
+.comparisonChart {
+  margin-top: 8px;
+}
+
+/* ── Mini summary table (7d / quarter) ──────────────────────────────────── */
+
+.summaryTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.summaryTable th,
+.summaryTable td {
+  padding: 9px 12px;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.summaryTable th {
+  font-weight: 600;
+  color: #57606a;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: #f7f8fa;
+}
+
+.summaryTable tr:last-child td {
+  border-bottom: none;
+}
+
+.summaryTable td:not(:first-child) {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── Colour dot (legend in summary table) ───────────────────────────────── */
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+
+/* ── Return badge colours ───────────────────────────────────────────────── */
+
+.positive {
+  color: #059669;
+  font-weight: 600;
+}
+
+.negative {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+/* ── Date range badge ───────────────────────────────────────────────────── */
+
+.badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 500;
+  color: #57606a;
+  background: #f7f8fa;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  padding: 1px 7px;
+  margin-left: 10px;
+  vertical-align: middle;
+}

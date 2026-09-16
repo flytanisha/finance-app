@@ -1,0 +1,44 @@
+.card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 16px 20px;
+  position: relative;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1f2328;
+  margin: 0 0 12px 0;
+}
+
+.chartWrapper {
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.loadingText {
+  font-size: 13px;
+  color: #57606a;
+}
+
+.errorText {
+  font-size: 13px;
+  color: #dc2626;
+}
+
+.emptyText {
+  font-size: 13px;
+  color: #57606a;
+}

@@ -1,0 +1,341 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`DayView — snapshot > matches the snapshot after data loads 1`] = `
+<section
+  class="_section_ab6bbe"
+>
+  <h2
+    class="_sectionTitle_ab6bbe"
+  >
+    Market Snapshot
+  </h2>
+  <p
+    class="_subtitle_ab6bbe"
+  >
+    Last updated 
+    03:43
+  </p>
+  <div
+    class="_quoteGrid_ab6bbe"
+  >
+    <div
+      class="_card_1c057d _borderPositive_1c057d"
+    >
+      <div
+        class="_header_1c057d"
+      >
+        <span
+          class="_name_1c057d"
+        >
+          Euro Stoxx 50
+        </span>
+        <span
+          class="_symbol_1c057d"
+        >
+          ^STOXX50E
+        </span>
+      </div>
+      <div
+        class="_price_1c057d"
+      >
+        5,300.25
+      </div>
+      <div
+        class="_change_1c057d _positive_1c057d"
+      >
+        <span>
+          +42.75
+        </span>
+        <span
+          class="_changePct_1c057d"
+        >
+          +0.81%
+        </span>
+      </div>
+      <div
+        class="_meta_1c057d"
+      >
+        <span
+          class="_metaItem_1c057d"
+          title="52-week high"
+        >
+          H 
+          5,500
+        </span>
+        <span
+          class="_metaItem_1c057d"
+          title="52-week low"
+        >
+          L 
+          4,600
+        </span>
+        <span
+          class="_metaItem_1c057d"
+          title="Volume"
+        >
+          Vol 
+          1.23M
+        </span>
+      </div>
+      <div
+        class="_timestamp_1c057d"
+      >
+        03:43
+      </div>
+    </div>
+    <div
+      class="_card_1c057d _borderNegative_1c057d"
+    >
+      <div
+        class="_header_1c057d"
+      >
+        <span
+          class="_name_1c057d"
+        >
+          DAX
+        </span>
+        <span
+          class="_symbol_1c057d"
+        >
+          ^GDAXI
+        </span>
+      </div>
+      <div
+        class="_price_1c057d"
+      >
+        18,200.00
+      </div>
+      <div
+        class="_change_1c057d _negative_1c057d"
+      >
+        <span>
+          -50.00
+        </span>
+        <span
+          class="_changePct_1c057d"
+        >
+          -0.27%
+        </span>
+      </div>
+      <div
+        class="_meta_1c057d"
+      >
+        <span
+          class="_metaItem_1c057d"
+          title="52-week high"
+        >
+          H 
+          19,000
+        </span>
+        <span
+          class="_metaItem_1c057d"
+          title="52-week low"
+        >
+          L 
+          15,000
+        </span>
+        <span
+          class="_metaItem_1c057d"
+          title="Volume"
+        >
+          Vol 
+          980.0K
+        </span>
+      </div>
+      <div
+        class="_timestamp_1c057d"
+      >
+        03:43
+      </div>
+    </div>
+    <div
+      class="_card_1c057d _borderPositive_1c057d"
+    >
+      <div
+        class="_header_1c057d"
+      >
+        <span
+          class="_name_1c057d"
+        >
+          Nikkei 225
+        </span>
+        <span
+          class="_symbol_1c057d"
+        >
+          ^N225
+        </span>
+      </div>
+      <div
+        class="_price_1c057d"
+      >
+        38,500.00
+      </div>
+      <div
+        class="_change_1c057d _positive_1c057d"
+      >
+        <span>
+          +100.00
+        </span>
+        <span
+          class="_changePct_1c057d"
+        >
+          +0.26%
+        </span>
+      </div>
+      <div
+        class="_meta_1c057d"
+      >
+        <span
+          class="_metaItem_1c057d"
+          title="52-week high"
+        >
+          H 
+          40,000
+        </span>
+        <span
+          class="_metaItem_1c057d"
+          title="52-week low"
+        >
+          L 
+          30,000
+        </span>
+      </div>
+      <div
+        class="_timestamp_1c057d"
+      >
+        03:43
+      </div>
+    </div>
+    <div
+      class="_card_1c057d _borderPositive_1c057d"
+    >
+      <div
+        class="_header_1c057d"
+      >
+        <span
+          class="_name_1c057d"
+        >
+          Dow Jones Industrial Average
+        </span>
+        <span
+          class="_symbol_1c057d"
+        >
+          ^DJI
+        </span>
+      </div>
+      <div
+        class="_price_1c057d"
+      >
+        39,000.00
+      </div>
+      <div
+        class="_change_1c057d _positive_1c057d"
+      >
+        <span>
+          +200.00
+        </span>
+        <span
+          class="_changePct_1c057d"
+        >
+          +0.52%
+        </span>
+      </div>
+      <div
+        class="_meta_1c057d"
+      >
+        <span
+          class="_metaItem_1c057d"
+          title="52-week high"
+        >
+          H 
+          42,000
+        </span>
+        <span
+          class="_metaItem_1c057d"
+          title="52-week low"
+        >
+          L 
+          32,000
+        </span>
+        <span
+          class="_metaItem_1c057d"
+          title="Volume"
+        >
+          Vol 
+          2.00M
+        </span>
+      </div>
+      <div
+        class="_timestamp_1c057d"
+      >
+        03:43
+      </div>
+    </div>
+    <div
+      class="_card_1c057d _borderPositive_1c057d"
+    >
+      <div
+        class="_header_1c057d"
+      >
+        <span
+          class="_name_1c057d"
+        >
+          MSCI World
+        </span>
+        <span
+          class="_symbol_1c057d"
+        >
+          URTH
+        </span>
+      </div>
+      <div
+        class="_price_1c057d"
+      >
+        135.50
+      </div>
+      <div
+        class="_change_1c057d _positive_1c057d"
+      >
+        <span>
+          +0.50
+        </span>
+        <span
+          class="_changePct_1c057d"
+        >
+          +0.37%
+        </span>
+      </div>
+      <div
+        class="_meta_1c057d"
+      >
+        <span
+          class="_metaItem_1c057d"
+          title="52-week high"
+        >
+          H 
+          145
+        </span>
+        <span
+          class="_metaItem_1c057d"
+          title="52-week low"
+        >
+          L 
+          110
+        </span>
+        <span
+          class="_metaItem_1c057d"
+          title="Volume"
+        >
+          Vol 
+          500.0K
+        </span>
+      </div>
+      <div
+        class="_timestamp_1c057d"
+      >
+        03:43
+      </div>
+    </div>
+  </div>
+</section>
+`;

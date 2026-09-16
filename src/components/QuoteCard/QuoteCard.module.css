@@ -1,0 +1,79 @@
+.card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-left-width: 3px;
+  border-radius: 8px;
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* Accent left border — green for positive, red for negative */
+.borderPositive { border-left-color: #059669; }
+.borderNegative { border-left-color: #dc2626; }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 13px;
+  color: #1f2328;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.symbol {
+  font-size: 11px;
+  color: #57606a;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.price {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1f2328;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+}
+
+.change {
+  display: flex;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  align-items: baseline;
+}
+
+.changePct {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.positive { color: #059669; }
+.negative { color: #dc2626; }
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 2px;
+}
+
+.metaItem {
+  font-size: 11px;
+  color: #57606a;
+}
+
+.timestamp {
+  font-size: 10px;
+  color: #8c959f;
+  margin-top: 2px;
+}
